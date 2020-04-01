@@ -1,5 +1,5 @@
 # sxhkd-bindings
-A low quality shell script to parse and display keybindings + descriptions.
+A shell script to parse and display keybindings + descriptions, as well as optionally edit them.
 
 # Requirements
 - grep
