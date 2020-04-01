@@ -18,6 +18,9 @@ alt + Return
     uxterm & sleep 0.25 && transset -a 0.8
 ```
 
+Note: It *shouldn't* matter how you capitalize "description" as I have `grep` and `sed` set to use case insensitive searching.<br>
+However, it has not been tested, so I have no idea how well it works.
+
 # Screenshots
 Example (from above) output:<br>
 ![example](screenshots/example.png)
