@@ -18,11 +18,15 @@ alt + Return
     uxterm & sleep 0.25 && transset -a 0.8
 ```
 
-Which will output:<br>
+# Screenshots
+Example (from above) output:<br>
 ![example](screenshots/example.png)
 
 And here is what a more full example would look like:<br>
 ![full example](screenshots/full_example.png)
+
+You can also display descriptions without "description: " included:<br>
+![full alternate example](screenshots/full_alternate.png)
 
 Note: Your rofi will look different due to using a different theme.<br>
 If you like the one I'm using, you may find it [here](https://github.com/Phate6660/dotfiles/blob/master/.cache/wal/colors-rofi-dark.rasi) in my [dotfiles repo](https://github.com/Phate6660/dotfiles).
