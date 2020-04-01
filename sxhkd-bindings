@@ -2,4 +2,9 @@
 
 # A WIP. To be made better in the future.
 
-echo -e "$(\grep -A 1 description $HOME/.config/sxhkd/sxhkdrc | sed s/--/\ /g)" | rofi -dmenu -p "sxhkd keybindings"
+# If "e" arg is passed, edit config with $EDITOR.
+if [ "$1" = "e" ]; then
+	"$EDITOR" "$HOME"/.config/sxhkd/sxhkdrc
+else
+    echo -e "$(\grep -A 1 description "$HOME"/.config/sxhkd/sxhkdrc | sed s/--/\ /g)" | rofi -dmenu -p "sxhkd keybindings"
+fi

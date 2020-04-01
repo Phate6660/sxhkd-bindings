@@ -32,3 +32,9 @@ If you like the one I'm using, you may find it [here](https://github.com/Phate66
 2. Inspect the script. Don't run scripts from the internet without checking them.
 3. `chmod +x sxhkd-keybindings`
 4. Move the script to anywhere in your `$PATH` and run the command (e.g. `sxhkd-bindings`), or just run it as is (e.g. `./sxhkd-bindings`).
+
+# Usage
+There are two uses currently, may or may not be expanded on in the future.
+
+1. Display keybindings.
+2. Edit config with `$EDITOR` if the `e` arg is passed to it. (e.g. `sxhkd-bindings e`)
