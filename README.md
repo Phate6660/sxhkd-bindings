@@ -2,9 +2,9 @@
 A low quality shell script to parse and display keybindings + descriptions.
 
 # Requirements
-- Grep
-- Sed
-- Rofi
+- grep
+- sed
+- [rofi](https://github.com/davatorium/rofi)
 - sxhkdrc setup in the proper format (more info below)
 
 # sxhkdrc format
