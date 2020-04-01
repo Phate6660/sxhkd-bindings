@@ -18,8 +18,8 @@ alt + Return
     uxterm & sleep 0.25 && transset -a 0.8
 ```
 
-Which will output:
+Which will output:<br>
 ![example](screenshots/example.png)
 
-And here is what a more full example would look like:
+And here is what a more full example would look like:<br>
 ![full example](screenshots/full_example.png)
