@@ -38,3 +38,4 @@ There are two uses currently, may or may not be expanded on in the future.
 
 1. Display keybindings.
 2. Edit config with `$EDITOR` if the `e` arg is passed to it. (e.g. `sxhkd-bindings e`)
+3. Display keybinding descriptions without "description: " (e.g. `# description: uxterm` -> `# uxterm`), if the `d` arg is passed to it.
