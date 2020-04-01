@@ -23,3 +23,5 @@ Which will output:<br>
 
 And here is what a more full example would look like:<br>
 ![full example](screenshots/full_example.png)
+
+Note: Your rofi will look different due to using a different theme. If you like the one I'm using, you may find it [here](https://github.com/Phate6660/dotfiles/blob/master/.cache/wal/colors-rofi-dark.rasi) in my [dotfile repo](https://github.com/Phate6660/dotfiles).
