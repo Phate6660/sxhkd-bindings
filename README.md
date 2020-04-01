@@ -31,7 +31,7 @@ If you like the one I'm using, you may find it [here](https://github.com/Phate66
 1. `curl -sSL https://raw.githubusercontent.com/Phate6660/sxhkd-bindings/master/sxhkd-bindings -o sxkhkd-bindings`
 2. Inspect the script. Don't run scripts from the internet without checking them.
 3. `chmod +x sxhkd-keybindings`
-4. Move the script to anywhere in your `$PATH` and run the command (e.g. `sxhkd-bindings`), or just run it as is (e.g. `./sxhkd-bindings`).
+4. Move the script to anywhere in your `$PATH` and run the command, or just run it as is.
 
 # Usage
 There are two uses currently, may or may not be expanded on in the future.
