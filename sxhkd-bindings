@@ -2,4 +2,4 @@
 
 # A WIP. To be made better in the future.
 
-echo -e "$(\grep -A 1 description .config/sxhkd/sxhkdrc | sed s/--/\ /g)" | rofi -dmenu
+echo -e "$(\grep -A 1 description $HOME/.config/sxhkd/sxhkdrc | sed s/--/\ /g)" | rofi -dmenu
