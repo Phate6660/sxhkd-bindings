@@ -41,8 +41,21 @@ If you like the one I'm using, you may find it [here](https://github.com/Phate66
 4. Move the script to anywhere in your `$PATH` and run the command, or just run it as is.
 
 # Usage
-There are two uses currently, may or may not be expanded on in the future.
+`$ sxhkd-bindings h`
+```
 
-1. Display keybindings.
-2. Edit config with `$EDITOR` if the `e` arg is passed to it. (e.g. `sxhkd-bindings e`)
-3. Display keybinding descriptions without "description: " (e.g. `# description: uxterm` -> `# uxterm`), if the `d` arg is passed to it.
+sxhkd-bindings 0.0.1
+Phate6660 <https://github.com/Phate6660>
+
+ARGs
+----
+d: Display descriptions without "description: "
+e: Edit "$HOME/.config/sxhkd/sxhkdrc" with "$EDITOR"
+h: Display this help message
+Anything not the above args, or nothing at all: Display keybindings and descriptions like normal
+
+```
+
+Note: `$HOME` and `$EDITOR` actually expand, ain't that neato?<br>
+So for me, the `e` line actually looks like this:<br>
+`e: Edit "/home/valley/.config/sxhkd/sxhkdrc" with "/usr/bin/emacs -nw"`

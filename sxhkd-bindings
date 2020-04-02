@@ -2,9 +2,22 @@
 
 # A WIP. To be made better in the future.
 
-cmd="\grep -i -A 1 description ""$HOME""/.config/sxhkd/sxhkdrc | sed -e s/--/\ /g"
+cmd="\grep -A 1 description ""$HOME""/.config/sxhkd/sxhkdrc | sed -e s/--/\ /g"
 case $1 in
 	d) cmd="$cmd -e s/description:\ //gI" && echo -e "$(eval "$cmd")" | rofi -dmenu -p "sxhkd keybindings";; # If "d" arg is passed, show descriptions without "description: ".
 	e) $EDITOR "$HOME"/.config/sxhkd/sxhkdrc;; # If "e" arg is passed, edit config with $EDITOR.
+	h)
+		echo "
+sxhkd-bindings 0.0.1
+Phate6660 <https://github.com/Phate6660>
+
+ARGs
+----
+d: Display descriptions without \"description: \"
+e: Edit \"$HOME/.config/sxhkd/sxhkdrc\" with \"$EDITOR\"
+h: Display this help message
+Anything not the above args, or nothing at all: Display keybindings and descriptions like normal
+"
+		;;
 	*) echo -e "$(eval "$cmd")" | rofi -dmenu -p "sxhkd keybindings";; # If anything (or nothing) is passed, display keybindings like normal.
 esac
